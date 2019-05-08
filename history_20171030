@@ -1,0 +1,577 @@
+exit
+df = pd.DataFrame.read_pickle('ccle_cell_info_df.pickle')
+df = pd.read_pickle('ccle_cell_info_df.pickle')
+df
+df.columns
+exit
+logout
+import pandas as pd
+df = pd.read_pickle('ccle_cell_info_df.pickle')
+ccledf
+df = pd.read_pickle('ccle_cell_info_df.pickle')
+df
+df.columns = [name.replace(' ','_') for name in df.columns]
+df.columns
+with open('ccle_cell_info_df.pickle', 'wb') as fh:
+import pickle
+df.to_pickle('ccle_cell_info_df.pickle)
+df.to_pickle('ccle_cell_info_df.pickle')
+import pickle
+import pandas as pd
+quit
+import pandas as pd
+import pickle
+bone = pd.read_pickle('bone.pickle')
+bone.shape
+ovary = pd.read_pickle('ovary.pickle')
+ovary.shape
+ovary.head
+ovary.columns
+bone.columns
+bone.index\
+bone.head
+bone.index
+ovary.index
+import pandas as pd
+cns = pd.read_pickle('central_nervous_system.pickle')
+cns.index
+cns.columns
+import pandas as pd
+exit
+exit()
+import pandas as pd
+rnadf = pd.read_pickle('tissueDF_raw/bone_mrna_df.pickle')
+rnadf
+rnadf.head(10)
+rnadf.index.name
+rnadf.index.name = 'gene'
+rnadf.index.name
+exit()
+import pandas as pd
+bone = pd.read_pickle('bone.pickle')
+bone
+bone.head(10)
+bone.index
+import pandas as pd
+bone = pd.read_pickle('bone.pickle')
+import pandas as
+bone = pd.read_pickle('bone.pickle')
+bone.shape
+import pandas as pd
+bone = pd.read_pickle('tissueDF_raw/bone*')
+import pandas as pd
+bone = pd.read_pickle('tissueDF_raw/bone_mrna_df.pickle')
+bone.head(10)
+bone.shape
+bone = pd.read_pickle('tissueDF_raw/skin_mrna_df.pickle')
+bone.shape
+import pandas as pd
+bone = pd.read_pickle('bone_alt.pickle')
+bone.head(10)
+import pandas as pd
+bone = pd.read_pickle('bone_alt.pickle')
+bone.head(10)
+bone = pd.read_pickle('bone_null.pickle')
+import pandas as pd
+bone = pd.read_pickle('bone.pickle')
+bone.head(10)
+bone.describe()
+bone.values.max()
+bone.values.min()
+import pandas as pd
+bone = pd.read_pickle('bone.pickle')
+bone.values.max()
+bone.values.min()
+bone.describe()
+bone.dropna.describe()
+import pandas as pd
+')
+import pandas as pd
+bone = pd.read_pickle('bone_mrna_df_0.75')
+bone = pd.read_pickle('bone_mrna_df_0.75.pickle')
+import pandas as pd
+bone = pd.read_pickle('bone_mrna_df_75.pickle')
+bone = pd.read_pickle('tissueDF_raw_75/bone_mrna_df_75.pickle')
+bone.head(10)
+bone = pd.read_pickle('tissueDF_raw/bone_mrna_df.pickle')
+bone.head(10)
+import pandas as pd
+bone = pd.read_pickle('bone.pickle')
+bone.head(10)
+bone.shape
+bone.columns
+import pandas as pd
+kid = pd.read_pickle('kidney_cat.pickle')
+kid.shape
+kid.head(10)
+import pandas as pd
+kid = pd.read_pickle('kidney_cat.pickle')
+kid.head(10)
+kid.tail(10)
+import pandas as pf
+bone = pf.read_pickle('bone.pickle')
+bone.head(10)
+bone.shape
+all = pf.read_pickle('tissueDF_test_cat.pickle')
+all = pf.read_pickle('*_cat.pickle')
+import pandas as pd
+all = pd.read_pickle('tissueDF_ttest_cat.pickle')
+bone = pd.read_pickle('bone.pickle')
+all
+all.shape
+bone.shape
+import pandas as pd
+pd.read_pickle('bone.pickle').head(10)
+pd.read_pickle('bone.pickle').tail(10)
+bone pd.read_pickle('bone.pickle')
+bone = pd.read_pickle('bone.pickle')
+bone.sum()
+import pandas as pd
+cnv = pd.read_pickle('breast_cnv_df.pickle')
+mrna = pd.read_pickle('breast_mrna_df.pickle')
+cnv.shape
+import pandas as pd
+mrna = pd.read_pickle('breast_mrna_df_75.pickle')
+mrna.shape[0]
+mrna.shape[0] * 23316
+import pandas as pd
+lung = pd.read_pickle('lung_ttest.pickle')
+lung.head()
+import pandas as pd
+cat = pd.read_pickle('tissueDF_pearson_cat_75.pickle')
+cat.head(2)
+cat.shape
+import pandas as pd
+pd.read_pickle('tissueDF_ttest_cat.pickle')
+cat.columns
+cat = pd.read_pickle('tissueDF_ttest_cat.pickle')
+cat.columns
+cat2 = pd.read_pickle('tissueDF_ttest_pearson.pickle')
+cat2 = pd.read_pickle('tissueDF_pearson_cat.pickle')
+cat2.columns
+import pandas as pd
+cat = pd.read_pickle('tissueDF_ttest_cat.pickle')
+cat.columns
+import pandas as pd
+celldf = pd.read_pickle('ccle_cell_info_df.pickle')
+celldf.head(5)
+celldf.columns
+8*1000*12
+100000/12/1000
+import pandas as pd
+b = pd.read_pickle('bone_ttest.pickle')
+b
+b.head()
+import pandas as pd
+b = pd.read_pickle('breast.pickle')
+b.head()
+b.t_stat.dtype
+import pandas as pd
+b = pd.read_pickle('breast.pickle')
+b.shape
+b.columns
+b.index
+exit()
+import pandas as pd
+b = pd.read_pickle('breast.pickle')
+b.shape
+b.columns
+b.head(10)
+exit()
+import pandas as pd
+cat = pd.read_pickle('tissueDF_ttest_cat.pickle')
+b.shape
+import pandas as pd
+df = pd.read_pickle('breast_100_3col.pickle')
+df
+df.head(10)
+df.shape
+import pandas as pd
+bdf = pd.read_pickle('breast_ttest_3col.pickle')
+bdf.head()
+bdf.sort_values('t_stat', ascending=False)
+bdf.sort_values('t_stat', ascending=False, inplace=True)
+bdf.head(500000).to_csv('breast_ttest_sort_500k.csv', sep='\t')
+bdf.head(500000)\
+bdf
+bdf.head()
+import pandas as pd
+bdf = pd.read_table('breast_ttest_null.tab')
+bdf.shape
+bdf.head(10)
+bdf.sort_values('t_stat', ascending=False, inplace=True)
+bdf.head(10)
+bdf['null'] = 1
+bdf.head(10)
+bdf.to_csv('breast_ttest_null_sort.csv', sep='\t')
+bdf.shape
+bdf.dropna(inplace=True)
+bdf.shape
+bdf[bdf['p_val'] > 0]
+bdf[bdf['t_stat'] > 0]
+bdf.head(10)
+bdf.columns = ['link','t_stat','p_val','null']
+bdf.head(10)
+bdf.shape
+bdf.dropna(inplace=true)
+bdf.dropna(inplace=True)
+bdf.shape
+bdf[bdf['p_val']<0].shape
+bdf.sort_values('t_stat
+import pandas as pd
+bdf = pd.read_table('breast_ttest.tab')
+bdf.shape
+bdf.head()
+bdf.dropna(inplace=True)
+bdf.shape
+bdf.columns = ['link', 't_stat', 'p_val']
+bdf.sort_values(t_stat, ascending=False)
+bdf.sort_values('t_stat', ascending=False)
+bdf.head(10)
+bdf.columns =['link','t_stat','p_val']
+bdf.head(10)
+bdf.sort_values('t_stat', ascending=False)
+bdf.sort_values('t_stat', ascending=False, inplace=True)
+bdf.head(10)
+import numpy as np
+bdf.replace([np.inf, -np.inf], np.nan)
+bdf.replace([np.inf, -np.inf], np.nan, inplace=True)
+bdf.shape
+bdf.dropna(inplace=True)
+bdf.shape\
+bdf.head(20)
+bdf.head(200)
+bdf.head(2000)
+bdf.head(20000)
+bdf.head(200000)
+bdf['null'] = 0
+bdf.head(20)
+bdf.to_csv('breast_ttest_sort.tab', sep='\t')
+exit()
+import pandas as pd
+bdf = pd.read_table ('breast_ttest_null_sort.tab')
+bdf['null'] = 1
+bdf.head(10)
+bdf.columns
+del bdf['Unnamed: 0']
+bdf.head(10)
+bdf.set_index('link')
+bdf.set_index('link', inplace=True)
+pd.to_csv('breast_ttest_null_sort.tab', sep='\t'))
+pd.to_csv('breast_ttest_null_sort.tab', sep='\t')
+bdf.to_csv('breast_ttest_null_sort.tab', sep='\t')
+import pandas as pd
+bdf = pd.read_table ('breast_ttest_sort.tab')
+bdf.head(2)
+del bdf['Unnamed: 0']
+ndf = pd.read_table('../breast_null/breast_ttest_null_sort.tab')
+ndf = pd.read_table('../breast_tab/breast_ttest_null_sort.tab')
+bdf.head(3)
+ndf.head(3)
+bdf.shape
+bdf.head(2)
+bdf.shape
+bdf.head(2)
+ndf.shape
+ndf.head(2)
+bdf.shape[0] + ndf.shape[0]
+catdf = pd.concat([bdf, ndf])
+catdf.shape
+catdf.head(10)
+catdf.sort_values('t_stat')
+catdf.sort_values('t_stat', inplace=True)
+catdf.head(10)
+catdf.reset_index(inplace=True)
+catdf.head(10)
+del catdf['index']
+catdf.head(10)
+catdf.to_csv('pre_fdr.tab', sep='\t')
+catdf.read_table('pre_fdr.tab')
+catdf1 = df.read_table('pre_fdr.tab')
+catdf1 = pd.read_table('pre_fdr.tab')
+catdf.head(5)
+catdf1.head(5)
+import pandas as pd
+pFDR = pd.read_table\('pre_fdr')
+pFDR = pd.read_table('pre_fdr')
+pFDR = pd.read_table('pre_fdr.tab')
+pFDR.shape()
+pFDR.shape
+pFDR.head(5)
+pFDR.sample(5)
+sample = pFDR.sample(10)
+sample
+del sample['Unnamed: 0']
+sample
+pFDR.head(10)
+del pFDR['Unnamed: 0']
+pFDR.head(10)
+pFDR.tail(10)
+pFDR.sort_values(by='t_stat', ascending=False)
+pFDR.sort_values(by='t_stat', ascending=False, inplace=True)
+pFDR.head(4)
+pFDR['t_stat'].sum()
+pFDR['null'].sum()
+pFDR.to_pickle('pre_fdr.pickle')
+sample = pFDR.sample(10)
+sample
+sample.set_value(87020593, 'null', 1)
+sample
+sample.set_value(87020593, 'null', 0)
+sample.reset_index()
+del sample['index']
+sample = pFDR.sample(10)
+sample
+sample.reset_index(inplace=True, drop=True)
+sample
+sample.set_value(2, 'null', 1)
+sample.set_value(4, 'null', 1)
+sample.set_value(6, 'null', 1)
+sample.set_value(7, 'null', 1)
+sample.to_pickle('fdr_sample.pickle')
+pFDR.reset_index(inplace=True, drop=True)
+pFDR.head(10)
+pFDR.to_pickle('pre_fdr.pickle')
+import pandas as pd
+sample = pd.read_pickle('fdr_sample.pickle')
+sample
+null_sum = 0
+sample['fdr'] = 0
+sample
+for row in sample.itertuples():
+	null_sum += row[4]
+	row[5] = null_sum / (row[0]+1)
+for row in sample.itertuples():
+	null_sum += row[4]
+	sample.set_value(row[0], row[5], null_sum / (row[0]+1))
+sample = pd.read_pickle('pre_fdr.pickle')
+null_sum = 0
+sample['fdr'] = 0
+for row in sample.itertuples():
+	null_sum += row[4]
+	sample.set_value(row[0], row[5], null_sum / (row[0]+1))
+exit()
+import pandas as pd
+import numpy as np
+df = pd.read_hdf('madre_merge_sort32.h5')
+for d in np.array_split(df, 10):
+for i,d in enumerate(np.array_split(df, 10)):
+	d.to_pickle(str(i)+".p")
+exit()
+import pandas as pd
+test = pd.read_pickle('0.p')
+test.head(10)
+exit()
+import pandas as pd
+df = pd.read_pickle('0.p')
+df.columns
+df.columns[1:26)
+df.columns[1:26]
+df.columns[0:27]
+df.columns20:27]
+df.columns[2:27]
+len(df.columns[2:27])
+df.columns[27:])
+len(df.columns[27:]
+)
+exit()
+import pandas as pd
+test = pd.read_pickle('1.p')
+test.head(10)
+test.df.replace([np.inf, -np.inf], np.nan)
+df.replace([np.inf, -np.inf], np.nan, inplace=True)
+test.replace([np.inf, -np.inf], np.nan, inplace=True)
+import pandas as np
+test.replace([np.inf, -np.inf], np.nan, inplace=True)
+import pandas as pd
+import numpy as no
+import numpy as np
+test.replace([np.inf, -np.inf], np.nan, inplace=True)
+test.dropna(how='any', inplace=True)
+test.head(10)
+test.to_csv('test.tab', sep='\t')
+test.head(10).to_csv('test.tab', sep='\t')
+test.head(3).to_csv('test.tab', sep='\t')
+test.info()
+import pandas as pd
+df = pd.read_pickle('1.p')
+df
+df = pd.read_pickle('1.p').head(2)
+test = pd.read_pickle('1.p').head(2)
+test.replace([np.inf, -np.inf], np.nan, inplace=True)
+import numpy as np
+test.replace([np.inf, -np.inf], np.nan, inplace=True)
+test.dropna(how='any', inplace=True)
+test10 = test.head(10)
+test10
+test10[test10.columns[2:]]
+a= test10[test10.columns[2:]].as_matrix()
+a
+a.dtype
+diffs = a[:,2:27] - a[:,27:]
+diffs = a[:,:25] - a[:,25:]
+diffs
+exit()
+import pandas as pd
+mae = pd.read_pickle('mae_out.p')
+mae.info()
+mae.head(10)
+mae['mae_out'].min
+mae['mae_out'].min()
+mae['mae_out'].max()
+xit()
+exit()
+import pandas as od
+import pandas as pd
+df = pd.read_hdf('madre_merge_sort32.h5')
+df.shape
+df.columns
+for x in range(1,26):
+	
+ls = [['trial','corr']]
+for x in range(1,26):
+	
+for i in range(1,26):
+	a, b = str(i)+'_a', str(i)+'_b'
+	ls.append([i,df[a].corr(df[b])])
+ls = [['trial','corr']]
+for i in range(1,26):
+	print('working on :',i)
+	a, b = str(i)+'_a', str(i)+'_b'
+	ls.append([i,df[a].corr(df[b])])
+corrdf = pd.DataFrame(ls)
+corrdf
+df.info()
+import numpy as nan
+df.shape
+df.replace([np.inf, np.inf]).dropna(how='any')
+import numpy as np
+df.replace([np.inf, np.inf]).dropna(how='any')
+df.replace([np.inf, np.inf], np.nan).dropna(how='any')
+df.replace([np.inf, np.inf], np.nan).dropna(how='any', inplace=True)
+df.shape
+df
+df = df.replace([np.inf, -np.inf]).dropna(how='any')
+df = df.replace([np.inf, -np.inf], np.nan).dropna(how='any')
+df.info()
+import itertools
+a = [str(i)+'_a' for i in range(1,26)]
+b = [str(i)+'_b' for i in range(1,26)]
+pairs = []
+results = []
+for pair in itertools.product(a,b):
+    print('working on: ', pair)
+    pairs.append(pair)
+    results.append(df[pair[0]].corr(df[pair[1]]))
+df = pd.DataFrame(results, index=pairs, columns=['corr'])
+df.head(10)
+df.sort_values(by='corr')
+df.sort_values(by='corr', inplace=True)
+df
+df.to_pickle('split_corrs.p')
+exit()
+import pandas as pd
+fdr_df = pd.read_pickle('post_fdr_t0_revsor_p.p')
+fdr_df.head(10)
+df = fdr_df.head(10)
+df['cnv'], df['exp'] = df.link['link'].str.split('&').str
+df['cnv'], df['exp'] = df['link'].str.split('&').str
+df
+fdr_df['cnv'], fdr_df['exp'] = fdr_df['link'].str.split('&').str
+fdr_df.head(10)
+fdr_df.columns
+fdr = fdr[['cnv', 'exp', 'link', 't_stat', 'p_val', 'null', 'cumu_fdr', 'bh_pval']]
+fdr_df = fdr_df[['cnv', 'exp', 'link', 't_stat', 'p_val', 'null', 'cumu_fdr', 'bh_pval']]
+fdr_df.columns
+fdr_df.head(10)
+import pickle
+with open('var_index.p', 'rb') as f:
+    var = pickle.load(f)
+fdr_df[fdr_df['exp'].isin(var[0][1])]
+for i in range(1,len(var)):
+    df = fdr_df[fdr_df['exp'].isin(var[0][1])]
+    df.to_pickle('post_fdr_t0_lt'+str(i)+'_var.p')
+df.head(10)
+import seaborn as sns
+tips = sns.load_dataset("tips")
+tips.head(10)
+df.shape
+fdr_df.shape
+df1 = pd.read_pickle('post_fdr_t0_lt1_var.p')
+df2 = pd.read_pickle('post_fdr_t0_lt2_var.p');
+df3 = pd.read_pickle('post_fdr_t0_lt3_var.p');
+df4 = pd.read_pickle('post_fdr_t0_lt4_var.p');
+tips
+ax = sns.boxplot(x='day', y='total_bill, hue='time', data=tips)
+ax = sns.boxplot(x='day', y='total_bill', hue='time', data=tips)
+fig = ax.get_fig()
+fig = ax.get_figure()
+fig.savefig('test_plotbox.jpg')
+tips.head(10)
+df.head(10)
+df = fdr_df
+df['var_filter']='no filter'
+df1['var_filter']='0.7 quantile'
+df2['var_filter']='0.8 quantile'
+df3['var_filter']='0.9 quantile'
+biggy = pd.concat([df,df1,df2,df3])
+biggy.info()
+biggy.head(10)
+biggy['null'] = biggy.null.astype(np.int32)
+import numpy as np
+biggy['null'] = biggy.null.astype(np.int32)
+biggy.info()
+biggy[['cnv', 'exp', 't_stat', 'bh_pval', 'null', 'var_filter']]
+smalls = biggy[['cnv', 'exp', 't_stat', 'bh_pval', 'null', 'var_filter']]
+smalls.info()
+smalls = biggy[['link', 't_stat', 'null', 'var_filter']]
+smalls.info()
+ax = sns.boxplot(x='var_filter', y='t_stat', hue='null', data=smalls)
+fig = ax.get_figure()
+fig.savefig('fig_varFilter_plotbox.jpg')
+smalls['t_stat'] = np.log(smalls['t_stat'])
+smalls.head(10)
+smalls = biggy[['link', 't_stat', 'null', 'var_filter']]
+smalls.head(10)
+smalls['log_t'] = np.log(smalls['t_stat'])
+ax = sns.boxplot(x='var_filter', y='log_t', hue='null', data=smalls)
+fig = ax.get_figure()
+fig.savefig('fig_varFilter_plotbox.jpg')
+ax_l = sns.boxplot(x='var_filter', y='log_t', hue='null', data=smalls)
+fig = ax_l.get_figure()
+fig.savefig('fig_varFilter_plotbox.jpg')
+s0 = df.sample(10000)
+s0 = df1.sample(10000)
+s0 = df.sample(10000)
+s1 = df1.sample(10000)
+s2 = df2.sample(10000)
+s3 = df3.sample(10000)
+head(s3)
+s3.head(10)
+s3.info()
+s0 = df.sample(100000)
+s1 = df1.sample(100000)
+s2 = df2.sample(100000)
+s3 = df3.sample(100000)
+s3.info()
+s3['null'].sum()
+small.concat[s0,s1,s2,s3].to_pickle('post_fdr_t0_varFilter_3.p')
+df.concat[s0,s1,s2,s3].to_pickle('post_fdr_t0_varFilter_3.p')
+pd.concat[s0,s1,s2,s3].to_pickle('post_fdr_t0_varFilter_3.p')
+pd.concat([s0,s1,s2,s3]).to_pickle('post_fdr_t0_varFilter_3.p')
+import readline; print '\n'.join([str(readline.get_history_item(i)) for i in range(readline.get_current_history_length())])
+import readline
+for i in range(readline.get_current_history_length()):
+    pass
+with open('history_20171030', 'w') as fh: 
+    for i in range(readline.get_current_history_length()):
+        fh.write(readline.get_history_item(i+1))
+with open('history_20171030', 'w') as fh: 
+    for i in range(readline.get_current_history_length()):
+        fh.write(str(readline.get_history_item(i+1))+'\n')
+for i in range(readline.get_current_history_length()):
+        print(readline.get_history_item(i+1))
+with open('history_20171030', 'w') as fh: 
+    for i in range(readline.get_current_history_length()):
+        fh.write(str(readline.get_history_item(i+1)))
+        fh.write('\n')
